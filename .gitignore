@@ -4,6 +4,9 @@
 /node_modules
 /.pnp
 .pnp.js
+/codecademy/Ravenous/node_modules
+/codecademy/Ravenous/.pnp
+/codecademy/Ravenous/.pnp.js
 
 # testing
 /coverage
@@ -17,10 +20,20 @@
 .env.development.local
 .env.test.local
 .env.production.local
+/codecademy/Ravenous/.DS_Store
+/codecademy/Ravenous/.env.local
+/codecademy/Ravenous/.env.development.local
+/codecademy/Ravenous/.env.test.local
+/codecademy/Ravenous/.env.production.local
 
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+/codecademy/Ravenous/npm-debug.log*
+/codecademy/Ravenous/yarn-debug.log*
+/codecademy/Ravenous/yarn-error.log*
 
-/src/components/SearchBar/background*
-/src/util/APIkey.js
+
+# Ravenous
+/codecademy/Ravenous/src/components/SearchBar/background*
+/codecademy/Ravenous/src/util/APIkey.js
