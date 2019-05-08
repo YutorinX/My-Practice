@@ -23,6 +23,7 @@ class SearchBar extends React.Component {
         this.handleLocationChange = this.handleLocationChange.bind(this)
         this.handleSearch = this.handleSearch.bind(this)
         this.handleSortByChange = this.handleSortByChange.bind(this)
+        this.enterkeyPressed = this.enterkeyPressed.bind(this)
     }
 
     getSortByClass(sortByOption) {
@@ -61,7 +62,7 @@ class SearchBar extends React.Component {
 
     enterkeyPressed(e) {
         if (e.keyCode === 13) {
-
+            this.props.searchYelp(this.state.term, this.state.location, this.state.sortBy)
         }
     }
 
