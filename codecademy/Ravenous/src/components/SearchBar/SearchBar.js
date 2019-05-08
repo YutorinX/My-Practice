@@ -22,6 +22,7 @@ class SearchBar extends React.Component {
         this.handleTermChange = this.handleTermChange.bind(this)
         this.handleLocationChange = this.handleLocationChange.bind(this)
         this.handleSearch = this.handleSearch.bind(this)
+        this.handleSortByChange = this.handleSortByChange.bind(this)
     }
 
     getSortByClass(sortByOption) {
@@ -29,8 +30,9 @@ class SearchBar extends React.Component {
         return ""
     }
 
-    handleSortyByChange(sortByOption) {
+    handleSortByChange(sortByOption) {
         this.setState({ sortBy: sortByOption })
+        this.props.searchYelp(this.state.term, this.state.location, this.state.sortBy)
     }
 
     handleTermChange(event) {
@@ -49,8 +51,18 @@ class SearchBar extends React.Component {
     renderSortByOptions() {
         return Object.keys(sortByOptions).map(sortByOption => {
             const sortByOptionValue = sortByOptions[sortByOption]
-            return <li key={sortByOptionValue} className={this.getSortByClass(sortByOptionValue)} onClick={this.handleSortyByChange.bind(this, sortByOptionValue)}>{sortByOption}</li>
+            return <li key={sortByOptionValue} 
+            className={this.getSortByClass(sortByOptionValue)}
+            onClick={this.handleSortByChange.bind(this, sortByOptionValue)}>
+                {sortByOption}
+            </li>
         })
+    }
+
+    enterkeyPressed(e) {
+        if (e.keyCode === 13) {
+
+        }
     }
 
     render() {
@@ -61,8 +73,8 @@ class SearchBar extends React.Component {
                 </ul>
               </div>
               <div className="SearchBar-fields">
-                <input onChange={this.handleTermChange} placeholder="Search Businesses" />
-                <input onChange={this.handleLocationChange} placeholder="Where?" />
+                <input onChange={this.handleTermChange} placeholder="Search Businesses" onKeyDown={this.enterkeyPressed} />
+                <input onChange={this.handleLocationChange} placeholder="Where?" onKeyDown={this.enterkeyPressed} />
               </div>
               <div className="SearchBar-submit">
                 <a href="#.com" onClick={this.handleSearch}>Let's Go</a>

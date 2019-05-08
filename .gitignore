@@ -35,5 +35,4 @@ yarn-error.log*
 
 
 # Ravenous
-/codecademy/Ravenous/src/components/SearchBar/background*
 /codecademy/Ravenous/src/util/APIkey.js
