@@ -15,21 +15,21 @@ You will also see any lint errors in the console.
 
 ---
 
-This project is the task which included React course in Codecademy
+This project is a task which included in React course at Codecademy.
 
 Completed main four tasks.
 
 
 Additional task:
 
-✅ Make addresses clickable and have them open the address in Google Maps in a new tab
+✅ : Make addresses clickable and have them open the address in Google Maps in a new tab
 
-✅ Make images clickable and have them open the business’ website in a new tab
+✅ : Make images clickable and have them open the business’ website in a new tab
 
-✅ Clicking on a different sorting option automatically requeries the Yelp API, rather than having to manually click “Let’s Go” again
+✅ : Clicking on a different sorting option automatically requeries the Yelp API, rather than having to manually click “Let’s Go” again
 
-☐ Implement your own type of sort (for example, by entering a distance or radius from a central location)
+☐ : Implement your own type of sort (for example, by entering a distance or radius from a central location)
 
-✅  Allow you to search by pressing “Enter” (or “Return”) on your keyboard, as opposed to manually clicking
+✅ :  Allow you to search by pressing “Enter” (or “Return”) on your keyboard, as opposed to manually clicking
 
-☐ Add autocompletion of addresses to the “Location” input
+☐ : Add autocompletion of addresses to the “Location” input
