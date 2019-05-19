@@ -4,6 +4,9 @@
 /node_modules
 /.pnp
 .pnp.js
+/codecademy/Jammming/node_modules
+/codecademy/Jammming/.pnp
+/codecademy/Jammming/.pnp.js
 /codecademy/Ravenous/node_modules
 /codecademy/Ravenous/.pnp
 /codecademy/Ravenous/.pnp.js
@@ -20,6 +23,11 @@
 .env.development.local
 .env.test.local
 .env.production.local
+/codecademy/Jammming/.DS_Store
+/codecademy/Jammming/.env.local
+/codecademy/Jammming/.env.development.local
+/codecademy/Jammming/.env.test.local
+/codecademy/Jammming/.env.production.local
 /codecademy/Ravenous/.DS_Store
 /codecademy/Ravenous/.env.local
 /codecademy/Ravenous/.env.development.local
