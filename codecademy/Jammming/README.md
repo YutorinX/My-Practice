@@ -1,3 +1,21 @@
+This project is a tasks which included in Build-Web-Apps-with-React course at Codecademy.  
+Completed main tasks and deployed(you can see [HERE](http://jammming_si.surge.sh/)).  
+
+
+Additional tasks:  
+✅ : Pressing enter triggers a search
+☐ : Include preview samples for each track
+☐ : Only display songs not currently present in the playlist in the search results
+☐ : Add a loading screen while playlist is saving
+☐ : Update the access token logic to expire at exactly the right time, instead of setting expiration from when the user initiates their next search
+☐ : After user redirect on login, restoring the search term from before the redirect
+☐ : Ensure playlist information doesn’t get cleared if a user has to refresh their access token
+☐ : Provide a way to fetch and see all your existing playlists
+
+
+---
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
