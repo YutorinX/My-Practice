@@ -44,3 +44,6 @@ yarn-error.log*
 
 # Ravenous
 /codecademy/Ravenous/src/util/APIkey.js
+
+# Jammming
+/codecademy/Jammming/src/util/clientID.js
