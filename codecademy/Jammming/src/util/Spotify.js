@@ -1,7 +1,7 @@
 import clientID from "./clientID.js"
 
 // const clientID = ""
-const redirectURI = window.location.href //"http://localhost:3000/"
+const redirectURI = "https://jammming_si.surge.sh/" //window.location.href //"http://localhost:3000/"
 let accessToken = ""
 
 const Spotify = {
