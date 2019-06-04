@@ -15,7 +15,7 @@ const Yelp = {
                     return {
                         id: business.id,
                         imageSrc: business.image_url,
-                        name: business.name,
+                        name: business.alias.replace(/-/g, " "),
                         url: business.url,
                         address: business.location.address1,
                         city: business.location.city,

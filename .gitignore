@@ -16,6 +16,9 @@
 
 # production
 /build
+/codecademy/Jammming/build
+/codecademy/Ravenous/build
+
 
 # misc
 .DS_Store
