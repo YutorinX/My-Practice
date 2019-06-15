@@ -10,6 +10,7 @@
 /codecademy/Ravenous/node_modules
 /codecademy/Ravenous/.pnp
 /codecademy/Ravenous/.pnp.js
+/js-primer/ajax-communicate/node_modules
 
 # testing
 /coverage
