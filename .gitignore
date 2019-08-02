@@ -12,6 +12,9 @@
 /codecademy/Ravenous/.pnp.js
 /js-primer/ajax-communicate/node_modules
 /js-primer/cli-app_with_nodejs/node_modules
+/codecademy/project-4-boss-machine/node_modules
+/codecademy/project-4-boss-machine/public/js/bundle.js
+/codecademy/project-4-boss-machine/public/js/bundle.js.map
 
 # testing
 /coverage
@@ -38,6 +41,10 @@
 /codecademy/Ravenous/.env.development.local
 /codecademy/Ravenous/.env.test.local
 /codecademy/Ravenous/.env.production.local
+/codecademy/project-4-boss-machine/.env.local
+/codecademy/project-4-boss-machine/.env.development.local
+/codecademy/project-4-boss-machine/.env.test.local
+/codecademy/project-4-boss-machine/.env.production.local
 
 npm-debug.log*
 yarn-debug.log*
